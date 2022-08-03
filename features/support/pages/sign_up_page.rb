@@ -11,7 +11,7 @@ class SignUp < SitePrism::Page
 
     element :first_name, '#first_name'
     element :last_name, '#last_name'
-    element :email_address, '#email'
+    element :email, '#email'
     element :password, '#password'
     element :zip_code, '#postal_code'
   end

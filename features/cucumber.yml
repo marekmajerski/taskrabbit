@@ -1,0 +1,4 @@
+<%
+std_opts = "--format progress features -r features --strict --publish-quiet".dup
+%>
+default: --publish-quiet 

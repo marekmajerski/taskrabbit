@@ -11,4 +11,5 @@ group :test do
   gem 'pry'
   gem 'dotenv'
   gem 'faker'
+  gem 'allure-rspec'
 end

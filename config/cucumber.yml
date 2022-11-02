@@ -1,0 +1,4 @@
+# config/cucumber.yml
+html_report: --format progress --format html --out=html-report/features_report.html
+
+default: --profile html_report --publish-quiet

@@ -43,7 +43,7 @@ unless ENV['CI']
     config.default_driver = :chrome
     config.default_max_wait_time = 2
     config.ignore_hidden_elements = false
-    config.app_host = 'https://us-staging-1.taskrabbit.in'
+    config.app_host = ''
   end
   
   After do |scenario|
